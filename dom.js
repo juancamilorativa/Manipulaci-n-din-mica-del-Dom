@@ -105,7 +105,6 @@ function mostrarProductos() {
             <div class="card-content">
                 <h3>${p.title}</h3>
                 <p>${p.description}</p>
-
                 ${p.hasDiscount ? `
                     <p>Se aplicó un descuento del 30%</p>
                     <p class="old-price">$${p.price}</p>
