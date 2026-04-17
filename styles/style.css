@@ -61,6 +61,19 @@ h2 {
     box-shadow: 0 5px 15px rgba(0,123,255,0.4);
 }
 
+/* MENSAJES */
+.message {
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.success { color: green; }
+.discount-success { color: orange; }
+.edit-success { color: blue; }
+.delete-success { color: red; }
+
+
 /* GRID PRODUCTOS */
 .product-container {
     margin-top: 30px;
@@ -142,4 +155,45 @@ h2 {
 .delete-btn:hover {
     transform: scale(1.05);
 }
+ /* PRECIO ORIGINAL TACHADO */
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 14px;
+}
 
+/* PRECIO FINAL */
+.price {
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ETIQUETA DESCUENTO */
+.badge {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+ 
+.message {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+/* éxito normal */
+.success {
+    color: green;
+}
+
+/* con descuento */
+.discount-success {
+    color: #ff6600;
+}

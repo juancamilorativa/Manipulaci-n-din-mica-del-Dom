@@ -14,9 +14,12 @@
     <input type="text" id="title" placeholder="Título">
     <input type="text" id="description" placeholder="Descripción">
     <input type="number" id="price" placeholder="Precio" min="0" step="0.01">
-    <input type="text" id="coupon" placeholder="Cupón (DESC30)">
-
+    <input type="text" id="cupon" placeholder="Cupón (DESC30)">
+    
     <button type="button" onclick="addProduct()" id="btnGuardar">Guardar</button>
+
+    <!-- MENSAJE -->
+    <div id="message" class="message"></div>
 </div>
 
 <h2>Productos (<span id="productCount">0</span>)</h2>
