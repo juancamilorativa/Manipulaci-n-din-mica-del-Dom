@@ -19,6 +19,7 @@ h2 {
 
 /* FORMULARIO */
 .form-container {
+    width: 100%;
     max-width: 420px;
     margin: auto;
     display: flex;
@@ -197,3 +198,4 @@ h2 {
 .discount-success {
     color: #ff6600;
 }
+@media (max-width: 600px) {
