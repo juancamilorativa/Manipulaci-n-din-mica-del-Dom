@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: linear-gradient(135deg, #eef2f7, #dfe9f3);
+    background: linear-gradient(135deg, #d4e2f3, #d7dfe7);
     margin: 0;
     padding: 20px;
 }
@@ -102,11 +102,6 @@ h2 {
     color: #333;
 }
 
-.card p {
-    font-size: 14px;
-    color: #666;
-}
-
 /* PRECIO */
 .price {
     color: #28a745;
@@ -121,7 +116,7 @@ h2 {
     padding: 10px;
     width: 100%;
     border: none;
-    background: linear-gradient(45deg, orange, #ffb347);
+    background: linear-gradient(45deg, rgb(212, 205, 189), #463a2a);
     color: white;
     border-radius: 8px;
     cursor: pointer;
@@ -137,7 +132,7 @@ h2 {
     padding: 10px;
     width: 100%;
     border: none;
-    background: linear-gradient(45deg, red, #ff4d4d);
+    background: linear-gradient(45deg, rgb(218, 11, 11), #af3c3c);
     color: white;
     border-radius: 8px;
     cursor: pointer;

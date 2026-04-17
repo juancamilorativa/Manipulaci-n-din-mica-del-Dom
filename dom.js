@@ -3,7 +3,7 @@ let editIndex = null;
 
 window.onload = showProducts;
 
-// VALIDAR URL
+// valicion de url
 function isValidURL(url) {
     try {
         new URL(url);
@@ -13,7 +13,7 @@ function isValidURL(url) {
     }
 }
 
-// LOCAL STORAGE
+// Local storage
 function getProducts() {
     return JSON.parse(localStorage.getItem("products")) || [];
 }
