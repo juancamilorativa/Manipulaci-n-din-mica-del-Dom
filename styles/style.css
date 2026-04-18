@@ -110,6 +110,18 @@ h2 {
     font-weight: bold;
     margin-top: 10px;
 }
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-bottom: 2px;
+}
+.label {
+    font-size: 13px;
+    color: #111111;
+    margin: 2px 0;
+    font-weight: bold;
+}
+
 
 /* BOTONES */
 .edit-btn {
@@ -170,4 +182,14 @@ h2 {
 /* editar */
 .edit-success {
     color: blue;
+}
+/* ETIQUETA DESCUENTO */
+.badge {
+    display: inline-block;
+    background: red;
+    color: white;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 5px;
 }

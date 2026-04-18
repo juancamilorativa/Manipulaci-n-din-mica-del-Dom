@@ -109,8 +109,10 @@ function mostrarProductos() {
                     <p>Se aplicó un descuento del 30%</p>
                     <p class="old-price">$${p.price}</p>
                     <span class="badge">30% OFF</span>
+                    <p class="label">Precio final:</p>
                     <p class="price">$${p.finalPrice}</p>
                 ` : `
+                <p class="label">Precio final:</p>
                     <p class="price">$${p.price}</p>
                 `}
 
